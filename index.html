@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Ghibli Museum</title>
+
+  <link rel="stylesheet" href="style.css"> <!-- css -->
+  <link rel="shortcut icon" href="img/icono.png" type="image/x-icon"> <!-- favicon -->
+  <!-- bootstrap css/js -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-nav.png" alt="Bootstrap" width="260" height="18">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#museo">Museo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#visita">Visita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#exhibiciones">Exhibiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coleccion">Colección</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#autor">Autor</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section id="portada">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <img class="img-p ms-auto d-block" src="img/portada-1.jpg" alt="portada-1" width="350" height="450">
+          <h1 class="titulo-p text-end mt-3">Museo ghibli</h1>
+          <a class="btn btn-green btn-sm rounded-3" href="https://youtu.be/jTXnd6lnCe8" data-fancybox data-width="740"
+            data-height="416">PLAY</a>
+        </div>
+        <div class="col-xl-4">
+          <img class="img-p mx-auto d-block" src="img/portada-2.jpg" alt="portada-2" width="350" height="574">
+          <p class="parrafo-p mt-3">
+            Vení con nosotros a conocer el mágico mundo de las obras de <strong>Studio Ghibli</strong>, por
+            <strong>Hayao Miyazaki</strong>.
+          </p>
+        </div>
+        <div class="col-xl-4">
+          <img class="img-p me-auto d-block" src="img/portada-3.jpg" alt="portada-3" width="350" height="673">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="museo">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <hr class="division mt-5">
+        </div>
+        <div class="col-xl-6 pt-5">
+          <img class="mx-auto d-block" src="img/totoro-bienvenidos.png" alt="totoro-bienvenidos" width="375"
+            height="570">
+        </div>
+        <div class="col-xl-6">
+          <h1 class="titulo-m">¡Bienvenidos!</h1>
+          <p>
+            Cuando caminas por la avenida Kichijoji, a la sombra de los altos árboles verdes del parque Inokashira de
+            Mitaka, te encuentras con un edificio colorido. De pie frente a un cartel que dice <strong>"Museo Ghibli,
+              Mitaka"</strong>,
+            un Totoro muy grande te da la bienvenida en la entrada. Cuando miras a través de la pequeña ventana, puedes
+            ver Dust Bunnies negros como el hollín. Pero esta no es la entrada real. Totoro te muestra dónde está la
+            entrada real.
+          </p>
+          <p>
+            <strong>¡Abre la puerta y se bienvenido al país de las maravillas!</strong> Cada ventana y lámpara está
+            cuidadosamente hecha a
+            mano con hermosas y coloridas vidrieras utilizando personajes de <strong>Ghibli</strong>, hermosas plantas y
+            flores y
+            animales del bosque. Cuando brilla el sol, los colores vivos del vidrio se reflejan en toques de luz de
+            colores en los pisos de piedra.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="visita">
+    <div class="container">
+      <div class="row pt-5 d-flex align-items-center">
+        <div class="col-xl-5">
+          <hr class="division-v">
+        </div>
+        <div class="col-xl-2 text-center">
+          <h1>Visitanos</h1>
+        </div>
+        <div class="col-xl-5">
+          <hr class="division-v">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card col-xl-3 mx-auto rounded-4 cards-v my-5">
+          <div class="card-body">
+            <div class="mx-auto text-center pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-clock icono-v1" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+              </svg>
+            </div>
+            <div class="text-center py-3 px-5">
+              <h3 class="fs-6">HORARIOS</h3>
+              <p>
+                Lunes a Viernes
+                <br><strong>10:00 a 17:00</strong>
+                <br>Sabados, Domingos y Feriados
+                <br><strong>10:00 a 19:00</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-xl-3 mx-auto rounded-4 cards-v my-5">
+          <div class="card-body">
+            <div class="mx-auto text-center pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-ticket-perforated icono-v2" viewBox="0 0 16 16">
+                <path
+                  d="M4 4.85v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Z" />
+                <path
+                  d="M1.5 3A1.5 1.5 0 0 0 0 4.5V6a.5.5 0 0 0 .5.5 1.5 1.5 0 1 1 0 3 .5.5 0 0 0-.5.5v1.5A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5V10a.5.5 0 0 0-.5-.5 1.5 1.5 0 0 1 0-3A.5.5 0 0 0 16 6V4.5A1.5 1.5 0 0 0 14.5 3h-13ZM1 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v1.05a2.5 2.5 0 0 0 0 4.9v1.05a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-1.05a2.5 2.5 0 0 0 0-4.9V4.5Z" />
+              </svg>
+            </div>
+            <div class="text-center py-2 px-5">
+              <h3 class="fs-6">VALOR ENTRADAS</h3>
+              <p>
+                De +19 <strong>JPY 1000</strong>
+                <br>De 13 a 18 <strong>JPY 700</strong>
+                <br>De 7 a 12 <strong>JPY 400</strong>
+                <br>De 4 a 6 <strong>JPY 100</strong>
+                <br>Menores de 3 <strong>GRATIS</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-xl-3 mx-auto rounded-4 cards-v my-5">
+          <div class="card-body">
+            <div class="mx-auto text-center pt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-geo-alt icono-v2" viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg>
+            </div>
+            <div class="text-center py-2 px-5">
+              <h3 class="fs-6">UBICACIÓN</h3>
+              <p>
+                1-1-83 Shimorenjaku
+                <br>Mitaka-shi
+                <br>Tokyo 181-0013
+                <br>Japón
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="exhibiciones">
+    <div class="container">
+      <div class="row d-flex align-items-center pt-5">
+        <div class="col-xl-2">
+          <hr class="division-e">
+        </div>
+        <div class="col-xl-3 text-center">
+          <h1>Exhibiciones</h1>
+        </div>
+        <div class="col-xl-7">
+          <hr class="division-e">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-4 mt-5">
+          <img class="rounded-4" src="img/exhibiciones-1.jpg" alt="exhibiciones-1" width="385" height="510">
+          <h3 class="fs-5 mt-2">"The Space of Wonder"</h3>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-ex btn-sm rounded-2 mb-4" data-bs-toggle="modal"
+            data-bs-target="#exhibicion-1">
+            Ver más...
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exhibicion-1" tabindex="-1" aria-labelledby="exhibicion-1Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exhibicion-1Label">"The Space of Wonder"</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Mira hacia el techo y lo encontrarás cubierto de pintura al fresco. En el centro de un cielo azul,
+                    hay
+                    un sol brillante y sonriente. Los árboles que se extienden hacia el cielo están llenos de uvas,
+                    melones, frutas deliciosamente maduras y hermosas flores que quizás nunca hayas visto antes. Si
+                    miras
+                    con atención, puedes ver a <strong>Kiki</strong> en su escoba, <strong>Nausicaä</strong> en su
+                    planeador y otros personajes volando por
+                    el cielo.
+                  </p>
+                  <p>
+                    Aquí se entregan los boletos a los visitantes a cambio de cupones de reserva. Estos boletos están
+                    hechos con <strong>piezas de películas reales de 35 mm que se usaron en los cines</strong>. Puede
+                    sostenerlo contra la
+                    luz y ver qué escena de una película Ghibli te tocó. Dado que el <strong>Museo Ghibli</strong> trata
+                    a cada niño como
+                    un invitado independiente, incluso los niños más pequeños pueden pararse en la plataforma especial
+                    en
+                    el mostrador de la recepción para recibir su propia entrada.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-bblue" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-5 mt-5">
+          <img class="rounded-4" src="img/exhibiciones-2.jpg" alt="exhibiciones-2" width="855" height="510">
+          <h3 class="fs-5 mt-2">"The Robot Soldier on the Rooftop"</h3>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-ex btn-sm rounded-2 mb-4" data-bs-toggle="modal"
+            data-bs-target="#exhibicion-2">
+            Ver más...
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exhibicion-2" tabindex="-1" aria-labelledby="exhibicion-2Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exhibicion-2Label">"The Robot Soldier on the Rooftop"</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Desde la terraza de <strong>Cat Bus Room</strong>, una escalera de caracol conduce al techo, y allí
+                    encontrarás un
+                    jardín en la azotea cubierto de hierba. Desde este elevado jardín, un sereno robot soldado de cinco
+                    metros de altura (de la película <strong>"Castle in the Sky"</strong>) mira hacia el parque
+                    Inokashira.
+                  </p>
+                  <p>Pero no tengas miedo; <strong>¡el Robot Soldier es el Guardián del Museo Ghibli!</strong></p>
+                  <p>
+                    Al pasar por detrás del Robot Soldier, te encontrarás con un <strong>parche de vegetación</strong>
+                    que crece
+                    salvajemente, el cual te hará olvidar que estás en un edificio y no en el parque en sí. Tómate un
+                    momento para experimentar la vida vegetal que cambia según la estación.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-bblue" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <hr class="division mt-5">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="coleccion">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 text-center">
+          <h1 class="titulo-c mt-5">Colección</h1>
+          <p class="texto-c mb-4">¡Te invitamos a mirar parte del proceso creativo de las películas de Studio Ghibli!</p>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="img/carrusel-1.jpg" class="d-block w-100 rounded-4" alt="carrusel-1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrusel-2.jpg" class="d-block w-100 rounded-4" alt="carrusel-2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrusel-3.jpg" class="d-block w-100 rounded-4" alt="carrusel-3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrusel-4.jpg" class="d-block w-100 rounded-4" alt="carrusel-4">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrusel-5.jpg" class="d-block w-100 rounded-4" alt="carrusel-5">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carrusel-6.jpg" class="d-block w-100 rounded-4" alt="carrusel-6">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="autor">
+    <div class="container">
+      <div class="row pt-5 d-flex align-items-center">
+        <div class="col-xl-7">
+          <hr class="division-a">
+        </div>
+        <div class="col-xl-4 text-center">
+          <h1>Hayao Miyazaki</h1>
+        </div>
+        <div class="col-xl-1">
+          <hr class="division-a">
+        </div>
+
+        <div class="col-xl-5 mt-5 ps-5">
+          <img class="rounded-4" src="img/miyazaki-hayao.jpg" alt="miyazaki-hayao" width="430" height="430">
+        </div>
+        <div class="col-xl-7">
+          <p class="texto-a">
+            Nació el <strong>5 de enero de 1941</strong> en Tokyo (Japón). Hayao Miyazaki es un ilustrador, animador,
+            director, guionista
+            y productor cinematográfico japonés. A mediados de los años 60, Miyazaki comenzó a
+            colaborar con la productora Toei asistiendo a los directores Yoshio Kuroda, Kimio Yabuki o Isao Takahata. En
+            la década de los 70 debutó como director realizando productos televisivos con series como
+            <strong>“Lupín”</strong> y <strong>“Conan, El Niño Del Futuro” </strong>. 
+            En el año <strong>1985</strong> creó el <strong>Studio Ghibli</strong> con Isao Takahata y en 1986 estrenó <strong>“La Fortaleza Celeste”</strong>.
+            Más tarde filmó <strong>“Mi Vecino Tororo”</strong> (1988), <strong>“Kiki: entregas a domicilio”</strong> (1989) y <strong>“Porco Rosso”</strong> (1992).
+            Aunque celebrado en su país, el imaginativo arte de Miyazaki no llegó al gran público hasta el estreno de
+            <strong>“La Princesa Mononoke”</strong> (1997), una película con excelente recibimiento crítico en los Estados Unidos, hecho
+            que propulsó su lanzamiento definitivo internacional.
+            A partir de ese momento, los largometrajes de animación de Hiyao Miyazaki fueron acogidos con entusiasmo en
+            Occidente, en especial <strong>“El Viaje De Chihiro”</strong> (2001), un film que ganó el <strong>Premio Oscar</strong> a la 
+            <strong>mejor película de animación</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="video">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <hr class="division-z mt-5">
+        </div>
+        <div class="col-xl-12 text-center mt-5">
+          <h1 class="titulo-z">La cinematografía de Ghibli</h1>
+          <p class="texto-c">Pequeña recopilación de las tomas más hermosas de Hayao Miyazaki y Studio Ghibli</p>
+        </div>
+        <div class="col-12 col-lg-10 mx-auto shadow my-5 mt-3 p-4 rounded">
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3_XCQ09f-Q" 
+            title="La cinematografía de Ghibli" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <a href="#">
+            <img src="img/museo-darte-ghibli.png" alt="museo-darte-ghibli" width="140" height="78">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 ajuste">
+            <p class="fs-5 mt-5 texto-f">RECIBÍ NOTICIAS DEL MUSEO</p>
+          </div>
+          <div class="col-xl-6 mt-5">
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email</label>
+              <input id="newsletter1" type="text" class="form-control formulario" placeholder="Email">
+              <button class="btn btn-footer" type="button">Subscribirse</button>
+            </div>
+          </div>
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <p class="mb-3 mb-md-0">&copy; 2001-2022 Museo d'Arte Ghibli</p>
+              </div>
+              <!-- instagram -->
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/ghibliarchives/" target="_blank" title="Instagram @ghibliarchives">
+                  <img src="img/icono-instagram.png" alt="icono-instagram" width="40" height="40">
+                </a>
+                </li>
+              <!-- twitter -->
+                <li class="ms-3"><a class="text-muted" href="https://twitter.com/GhibliML" target="_blank" title="Twitter @GhibliML">
+                  <img src="img/icono-twitter.png" alt="icono-twitter" width="40" height="40">
+                </a>
+                </li>
+              <!-- mail -->
+                <li class="ms-3"><a class="text-muted" href="mailto: museum@ghibli.jp" target="_blank" title="Mail">
+                  <img src="img/icono-mail.png" alt="icono-mail" width="40" height="40">
+                </a>
+                </li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+  <!-- jquery -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+
+</html>
